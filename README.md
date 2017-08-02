@@ -16,5 +16,8 @@ If you're still having issues, please contact me, donate me a few thousand dolla
 
 ## Changelog
 
+= 0.0.2 =
+* Changed "meow" to "woof" because dogs are superior creatures
+
 = 0.0.1 =
 * Initial commit of a dumb plugin

@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @package DumbPlugin
  * @license GPL-2.0+
  * @link    https://github.com/whatadewitt/dumb-plugin
- * @version 1.0.0
+ * @version 0.0.2
  */
 class DumbPlugin {
 
@@ -61,7 +61,7 @@ class DumbPlugin {
 	/**
 	* Creates or returns an instance of this class.
 	*
-	* @since     1.0.0
+	* @since     0.0.1
 	* @return    DumbPlugin    A single instance of this class.
 	*/
 	public function get_instance() {
@@ -77,7 +77,7 @@ class DumbPlugin {
 	/**
 	* Initializes the plugin by setting localization, filters, and administration functions.
 	*
-	* @since    1.0.0
+	* @since    0.0.1
 	*/
 	private function __construct() {
 		/*
@@ -262,12 +262,12 @@ class DumbPlugin {
 	 * Fired when the plugin is deactivated.
 	 *
 	 * @param    boolean    $network_wide    True if WPMU superadmin uses "Network Activate" action, false if WPMU is disabled or plugin is activated on an individual blog
-	 * @since    1.0.0
+	 * @since    0.0.1
 	 */
   public static function deactivate( $network_wide ) {
 	}
 	
 	public function dumb_filter( $content ) {
-		return preg_replace('/[^\s]+/', 'meow', $content);
+		return preg_replace('/[^\s]+/', 'woof', $content);
 	}
 }

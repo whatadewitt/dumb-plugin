@@ -7,7 +7,7 @@
  *
  * Plugin Name: Dumb Plugin
  * Description: A Dumb Plugin that does something dumb
- * Version: 0.0.1
+ * Version: 0.0.2
  * Author: Luke DeWitt
  * License: GPLv2 or later
  * Text Domain: wad-dumb
@@ -27,7 +27,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * used throughout the rest of this file.
  */
 if ( ! defined( 'DUMB_PLUGIN_VERSION' ) ) {
-	define( 'DUMB_PLUGIN_VERSION', '0.0.1' );
+	define( 'DUMB_PLUGIN_VERSION', '0.0.2' );
 }
 
 require_once( plugin_dir_path( __FILE__ ) . 'class-dumb-plugin.php' );
